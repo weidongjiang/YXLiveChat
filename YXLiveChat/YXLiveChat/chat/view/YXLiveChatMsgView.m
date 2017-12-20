@@ -7,6 +7,7 @@
 //
 
 #import "YXLiveChatMsgView.h"
+#import <Masonry.h>
 
 @implementation YXLiveChatMsgView
 - (instancetype)initWithFrame:(CGRect)frame {
@@ -20,7 +21,7 @@
 - (void)setupView {
 
     // 布局
-
+    self.backgroundColor = [UIColor greenColor];
 
     // 约束
     [self setAllLayoutView];

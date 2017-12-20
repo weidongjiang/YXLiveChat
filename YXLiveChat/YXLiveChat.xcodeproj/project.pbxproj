@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		135E145469F04CF105FCFC9B /* libPods-YXLiveChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B81AA95563773E9926645B /* libPods-YXLiveChat.a */; };
 		CE67DF9C1FEA421900F420C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE67DF9B1FEA421900F420C6 /* AppDelegate.m */; };
-		CE67DF9F1FEA421900F420C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE67DF9E1FEA421900F420C6 /* ViewController.m */; };
 		CE67DFA21FEA421900F420C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE67DFA01FEA421900F420C6 /* Main.storyboard */; };
 		CE67DFA41FEA421900F420C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE67DFA31FEA421900F420C6 /* Assets.xcassets */; };
 		CE67DFA71FEA421900F420C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE67DFA51FEA421900F420C6 /* LaunchScreen.storyboard */; };
@@ -18,6 +18,7 @@
 		CE67DFD21FEA435E00F420C6 /* YXLiveChatMsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE67DFD11FEA435E00F420C6 /* YXLiveChatMsgViewController.m */; };
 		CE67DFD51FEA455A00F420C6 /* YXLiveChatRelationViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE67DFD41FEA455A00F420C6 /* YXLiveChatRelationViewModel.m */; };
 		CE67DFD81FEA46B100F420C6 /* YXLiveChatMsgView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE67DFD71FEA46B100F420C6 /* YXLiveChatMsgView.m */; };
+		CED5D4E61FEA6DCE0083DC50 /* YXLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED5D4E51FEA6DCE0083DC50 /* YXLiveViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38D2940B57041D37726B0DF9 /* libPods-YXLiveChatTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YXLiveChatTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B81AA95563773E9926645B /* libPods-YXLiveChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YXLiveChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EAE95EA0E7AF44950EE8715 /* Pods-YXLiveChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXLiveChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXLiveChat/Pods-YXLiveChat.release.xcconfig"; sourceTree = "<group>"; };
+		9EDB902DC0779CC964A2CF6D /* libPods-YXLiveChatUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YXLiveChatUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26C1918A3615DFA28E2E2F8 /* Pods-YXLiveChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXLiveChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YXLiveChat/Pods-YXLiveChat.debug.xcconfig"; sourceTree = "<group>"; };
 		CE67DF971FEA421900F420C6 /* YXLiveChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXLiveChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE67DF9A1FEA421900F420C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE67DF9B1FEA421900F420C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CE67DF9D1FEA421900F420C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CE67DF9E1FEA421900F420C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CE67DFA11FEA421900F420C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE67DFA31FEA421900F420C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE67DFA61FEA421900F420C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,6 +64,10 @@
 		CE67DFD41FEA455A00F420C6 /* YXLiveChatRelationViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXLiveChatRelationViewModel.m; sourceTree = "<group>"; };
 		CE67DFD61FEA46B100F420C6 /* YXLiveChatMsgView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXLiveChatMsgView.h; sourceTree = "<group>"; };
 		CE67DFD71FEA46B100F420C6 /* YXLiveChatMsgView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXLiveChatMsgView.m; sourceTree = "<group>"; };
+		CED5D4E21FEA65CC0083DC50 /* YXLiveChatCommonSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXLiveChatCommonSetting.h; sourceTree = "<group>"; };
+		CED5D4E31FEA67420083DC50 /* YXLiveChatPCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXLiveChatPCH.pch; sourceTree = "<group>"; };
+		CED5D4E41FEA6DCE0083DC50 /* YXLiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXLiveViewController.h; sourceTree = "<group>"; };
+		CED5D4E51FEA6DCE0083DC50 /* YXLiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXLiveViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				135E145469F04CF105FCFC9B /* libPods-YXLiveChat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +96,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42CD7E294B3A05E6ED36CE46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45B81AA95563773E9926645B /* libPods-YXLiveChat.a */,
+				38D2940B57041D37726B0DF9 /* libPods-YXLiveChatTests.a */,
+				9EDB902DC0779CC964A2CF6D /* libPods-YXLiveChatUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		640C79A6E902F6A356ABF202 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C26C1918A3615DFA28E2E2F8 /* Pods-YXLiveChat.debug.xcconfig */,
+				4EAE95EA0E7AF44950EE8715 /* Pods-YXLiveChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CE67DF8E1FEA421900F420C6 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +122,8 @@
 				CE67DFB21FEA421900F420C6 /* YXLiveChatTests */,
 				CE67DFBD1FEA421900F420C6 /* YXLiveChatUITests */,
 				CE67DF981FEA421900F420C6 /* Products */,
+				640C79A6E902F6A356ABF202 /* Pods */,
+				42CD7E294B3A05E6ED36CE46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,8 +142,8 @@
 			children = (
 				CE67DF9A1FEA421900F420C6 /* AppDelegate.h */,
 				CE67DF9B1FEA421900F420C6 /* AppDelegate.m */,
-				CE67DF9D1FEA421900F420C6 /* ViewController.h */,
-				CE67DF9E1FEA421900F420C6 /* ViewController.m */,
+				CED5D4E41FEA6DCE0083DC50 /* YXLiveViewController.h */,
+				CED5D4E51FEA6DCE0083DC50 /* YXLiveViewController.m */,
 				CE67DFA01FEA421900F420C6 /* Main.storyboard */,
 				CE67DFA31FEA421900F420C6 /* Assets.xcassets */,
 				CE67DFA51FEA421900F420C6 /* LaunchScreen.storyboard */,
@@ -145,6 +175,7 @@
 		CE67DFCC1FEA431A00F420C6 /* chat */ = {
 			isa = PBXGroup;
 			children = (
+				CED5D4E11FEA659D0083DC50 /* common */,
 				CE67DFCD1FEA431A00F420C6 /* model */,
 				CE67DFCE1FEA431A00F420C6 /* view */,
 				CE67DFCF1FEA431A00F420C6 /* viewController */,
@@ -179,6 +210,15 @@
 			path = viewController;
 			sourceTree = "<group>";
 		};
+		CED5D4E11FEA659D0083DC50 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				CED5D4E21FEA65CC0083DC50 /* YXLiveChatCommonSetting.h */,
+				CED5D4E31FEA67420083DC50 /* YXLiveChatPCH.pch */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -186,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE67DFC31FEA421900F420C6 /* Build configuration list for PBXNativeTarget "YXLiveChat" */;
 			buildPhases = (
+				3A0C834553D619BC86680819 /* [CP] Check Pods Manifest.lock */,
 				CE67DF931FEA421900F420C6 /* Sources */,
 				CE67DF941FEA421900F420C6 /* Frameworks */,
 				CE67DF951FEA421900F420C6 /* Resources */,
+				17BDCC5AB544A1D18A91A9D4 /* [CP] Embed Pods Frameworks */,
+				A0E2464B7053FEC334BCC55F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -307,17 +350,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17BDCC5AB544A1D18A91A9D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YXLiveChat/Pods-YXLiveChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A0C834553D619BC86680819 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YXLiveChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0E2464B7053FEC334BCC55F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YXLiveChat/Pods-YXLiveChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE67DF931FEA421900F420C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE67DF9F1FEA421900F420C6 /* ViewController.m in Sources */,
 				CE67DFAA1FEA421900F420C6 /* main.m in Sources */,
 				CE67DFD51FEA455A00F420C6 /* YXLiveChatRelationViewModel.m in Sources */,
 				CE67DF9C1FEA421900F420C6 /* AppDelegate.m in Sources */,
 				CE67DFD21FEA435E00F420C6 /* YXLiveChatMsgViewController.m in Sources */,
 				CE67DFD81FEA46B100F420C6 /* YXLiveChatMsgView.m in Sources */,
+				CED5D4E61FEA6DCE0083DC50 /* YXLiveViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +572,7 @@
 		};
 		CE67DFC41FEA421900F420C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C26C1918A3615DFA28E2E2F8 /* Pods-YXLiveChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -492,6 +587,7 @@
 		};
 		CE67DFC51FEA421900F420C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EAE95EA0E7AF44950EE8715 /* Pods-YXLiveChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

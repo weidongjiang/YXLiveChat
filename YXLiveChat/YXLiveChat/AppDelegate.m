@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "YXLiveViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    YXLiveViewController *fc = [[YXLiveViewController alloc]init];
+    UINavigationController *navCtrlr = [[UINavigationController alloc]initWithRootViewController:fc];
+    [self.window setRootViewController:navCtrlr];
+
     return YES;
 }
 

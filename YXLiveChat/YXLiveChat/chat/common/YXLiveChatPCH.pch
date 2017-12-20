@@ -1,0 +1,17 @@
+//
+//  YXLiveChatPCH.pch
+//  YXLiveChat
+//
+//  Created by yixiajwd on 2017/12/20.
+//  Copyright © 2017年 yixiajwd. All rights reserved.
+//
+
+#ifndef YXLiveChatPCH_pch
+#define YXLiveChatPCH_pch
+
+
+#import "YXLiveChatCommonSetting.h"
+
+
+
+#endif /* YXLiveChatPCH_pch */

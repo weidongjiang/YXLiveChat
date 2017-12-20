@@ -9,8 +9,13 @@
 #import "YXLiveChatMsgViewController.h"
 #import "YXLiveChatRelationViewModel.h"
 #import "YXLiveChatMsgView.h"
+#import <Masonry.h>
+#import "YXLiveChatCommonSetting.h"
+
 
 @interface YXLiveChatMsgViewController ()
+
+@property (nonatomic, strong) YXLiveChatMsgView        *chatMsgView; ///< 整体大的界面 包括
 
 @end
 
@@ -24,7 +29,12 @@
     return self;
 }
 - (void)initUI {
-
+    self.chatMsgView = [[YXLiveChatMsgView alloc] init];
+    [self.view addSubview:self.chatMsgView];
+    [self.chatMsgView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.left.right.equalTo(self.view);
+        make.height.mas_equalTo(KScreenHeight + KYXLiveChatBoxPanel);
+    }];
 }
 - (void)getData {
 

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YXLiveViewController.h
 //  YXLiveChat
 //
 //  Created by yixiajwd on 2017/12/20.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface YXLiveViewController : UIViewController
 
 @end
-
